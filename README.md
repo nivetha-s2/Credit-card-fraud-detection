@@ -4,13 +4,3 @@ This project implements a machine learning–based system to detect fraudulent c
 
 Technologies Used: Python, Pandas, NumPy, Scikit-learn, Imbalanced-learn, Matplotlib, Seaborn
 Dataset: Kaggle – Credit Card Fraud Detection
-## Dataset
-
-This project uses the Credit Card Fraud Detection dataset from Kaggle.
-
-Link:
-https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-
-Note:
-Due to file size and licensing, the dataset is not included in this repository.
-Please download the dataset from Kaggle and place `creditcard.csv` inside the `dataset/` folder.
