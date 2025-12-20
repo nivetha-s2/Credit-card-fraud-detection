@@ -1,0 +1,17 @@
+Output / Results
+The dataset contained highly imbalanced classes, with normal transactions significantly outnumbering fraudulent ones.
+SMOTE was applied to balance the training dataset and improve fraud detection performance.
+🔹 Logistic Regression Results
+      Accuracy: 92%
+      ROC-AUC Score: 0.97
+      Recall (Fraud Class): 93%
+      Observation: The model successfully detects most fraudulent transactions but generates a higher number of false positives.
+🔹 Random Forest Results
+      Accuracy: 99%
+      ROC-AUC Score: 0.98
+      Precision (Fraud Class): 51%
+      Recall (Fraud Class): 64%
+      F1-Score: 57%
+🔹 Final Model Selection
+Random Forest outperformed Logistic Regression in overall accuracy and ROC-AUC score.
+The Random Forest model was selected as the final model due to its better balance between precision and recall.
